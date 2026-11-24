@@ -1,0 +1,7 @@
+job_id,arrival_ms,tenant,gpus,duration_ms,priority,same_node
+j1,0,team-a,4,400,10,true
+j2,0,team-b,2,200,20,false
+j3,50,team-a,2,200,5,false
+j4,100,team-b,4,300,10,true
+j5,150,team-c,2,150,30,false
+j6,250,team-b,2,250,50,false

@@ -17,8 +17,11 @@
 | GPU 执行与异步 | [CUDA SIMT 执行模型](https://docs.nvidia.com/cuda/cuda-programming-guide/03-advanced/advanced-kernel-programming.html#simt-execution-model) · [CUDA 异步执行](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html) | 线程束、分支与流的顺序语义 |
 | GPU 性能分析 | [Nsight Compute 屋顶线说明](https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#roofline-charts) · [CUDA 带宽最佳实践](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#bandwidth) | 算术强度、理论带宽与有效带宽 |
 | 集群编排 | [Kubernetes 项目](https://github.com/kubernetes/kubernetes) · [GPU 调度文档](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/) | 设备插件与资源请求 |
+| GPU 分区 | [NVIDIA MIG 用户指南](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/latest/introduction.html) | 支持范围、实例隔离和版本约束 |
 | 服务就绪 | [Kubernetes Pod 生命周期](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) | 就绪条件与故障恢复边界 |
-| 作业排队 | [Kueue 项目](https://github.com/kubernetes-sigs/kueue) · [文档](https://kueue.sigs.k8s.io/) | 配额和排队机制 |
+| 节点弹性与故障 | [Kubernetes 节点自动扩缩容](https://kubernetes.io/docs/concepts/cluster-administration/node-autoscaling/) · [污点与容忍](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) | 容量补充、节点隔离与驱逐语义 |
+| 作业排队 | [Kueue 项目](https://github.com/kubernetes-sigs/kueue) · [准入](https://kueue.sigs.k8s.io/docs/concepts/admission/) · [集群队列](https://kueue.sigs.k8s.io/docs/concepts/cluster_queue/) | 准入、配额和资源风味 |
+| 拓扑与整组准入 | [Kueue 拓扑感知调度](https://kueue.sigs.k8s.io/docs/concepts/topology_aware_scheduling/) · [全有或全无语义](https://kueue.sigs.k8s.io/docs/concepts/all_or_nothing/) | 必须或偏好拓扑、整组资源准入 |
 | GPU 通信 | [NCCL 文档](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/) | 集合通信与拓扑 |
 | 集合通信语义 | [NCCL 集合通信](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html) | 全归约、全收集和归约分散 |
 
