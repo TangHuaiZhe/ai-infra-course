@@ -8,6 +8,8 @@
 | 推理引擎 | [SGLang 项目](https://github.com/sgl-project/sglang) · [官方文档](https://docs.sglang.ai/) | 推理服务与缓存复用 |
 | 推理引擎 | [TensorRT-LLM 项目](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA 平台的推理实现与限制 |
 | 张量与训练 | [PyTorch 项目](https://github.com/pytorch/pytorch) · [分布式文档](https://docs.pytorch.org/docs/stable/distributed.html) · [FSDP2 教程](https://docs.pytorch.org/tutorials/intermediate/FSDP_tutorial.html) | 自动微分、分布式训练、参数分片 |
+| 自动微分与数值 | [PyTorch 自动微分机制](https://docs.pytorch.org/docs/stable/notes/autograd) · [自动微分教程](https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial) · [数值精度说明](https://docs.pytorch.org/docs/stable/notes/numerical_accuracy.html) | 计算图、梯度与降低精度的边界 |
+| Transformer | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 原始架构与缩放点积注意力 |
 | 训练优化 | [DeepSpeed 项目](https://github.com/deepspeedai/DeepSpeed) | ZeRO 等训练技术的实现 |
 | 集群计算与服务 | [Ray 项目](https://github.com/ray-project/ray) · [Ray Serve LLM 文档](https://docs.ray.io/en/latest/serve/llm/index.html) | 分布式执行与模型服务 |
 | 请求路由 | [Ray Serve LLM 路由策略](https://docs.ray.io/en/latest/serve/llm/architecture/routing-policies.html) · [前缀感知路由](https://docs.ray.io/en/latest/serve/llm/user-guides/prefix-aware-routing.html) | 副本负载与缓存亲和的取舍 |
