@@ -1,0 +1,9 @@
+request_id,arrival_ms,prefix,service_ms
+r1,0,system-a,200
+r2,20,system-a,200
+r3,40,system-b,120
+r4,60,system-a,200
+r5,80,system-c,80
+r6,100,system-b,120
+r7,320,system-a,200
+r8,340,system-b,120

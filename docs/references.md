@@ -10,8 +10,10 @@
 | 张量与训练 | [PyTorch 项目](https://github.com/pytorch/pytorch) · [分布式文档](https://docs.pytorch.org/docs/stable/distributed.html) · [FSDP2 教程](https://docs.pytorch.org/tutorials/intermediate/FSDP_tutorial.html) | 自动微分、分布式训练、参数分片 |
 | 训练优化 | [DeepSpeed 项目](https://github.com/deepspeedai/DeepSpeed) | ZeRO 等训练技术的实现 |
 | 集群计算与服务 | [Ray 项目](https://github.com/ray-project/ray) · [Ray Serve LLM 文档](https://docs.ray.io/en/latest/serve/llm/index.html) | 分布式执行与模型服务 |
+| 请求路由 | [Ray Serve LLM 路由策略](https://docs.ray.io/en/latest/serve/llm/architecture/routing-policies.html) · [前缀感知路由](https://docs.ray.io/en/latest/serve/llm/user-guides/prefix-aware-routing.html) | 副本负载与缓存亲和的取舍 |
 | GPU 编程 | [Triton 项目](https://github.com/triton-lang/triton) · [文档](https://triton-lang.org/main/index.html) | GPU 算子与性能实验 |
 | 集群编排 | [Kubernetes 项目](https://github.com/kubernetes/kubernetes) · [GPU 调度文档](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/) | 设备插件与资源请求 |
+| 服务就绪 | [Kubernetes Pod 生命周期](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) | 就绪条件与故障恢复边界 |
 | 作业排队 | [Kueue 项目](https://github.com/kubernetes-sigs/kueue) · [文档](https://kueue.sigs.k8s.io/) | 配额和排队机制 |
 | GPU 通信 | [NCCL 文档](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/) | 集合通信与拓扑 |
 
