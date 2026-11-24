@@ -1,0 +1,6 @@
+request_id,arrival_ms,first_token_ms,end_ms,output_tokens
+r1,0,100,300,5
+r2,50,250,650,5
+r3,100,700,1100,5
+r4,200,300,300,1
+r5,400,900,1700,5

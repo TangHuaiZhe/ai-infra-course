@@ -1,6 +1,6 @@
 # 课程目录
 
-每章目前是可执行学习计划的骨架。章节中的“待补全”表示详细课文或实验脚本尚未提交，并不代表实验已经验证。
+这门中文课程以推理基础设施为深入主线，覆盖八个知识模块。推理模块前三章已补充内容与普通电脑可运行的指标练习；其余章节仍是学习计划骨架。“待补全”表示详细课文或实验脚本尚未提交，并不代表实验已经验证。
 
 ## 01 计算机基础
 
@@ -51,4 +51,4 @@
 - [02 容量与成本模型](08-ai-platform-finops/02-capacity-and-cost.md)：成本口径与容量规划。
 - [03 可靠性与治理](08-ai-platform-finops/03-reliability-and-governance.md)：服务目标、监控与变更。
 
-阅读时可回到 [首页](../README.md)、[六个月路线](../ROADMAP.md) 或 [参考资料](references.md)。
+继续阅读 [六个月路线](https://github.com/TangHuaiZhe/ai-infra-course/blob/main/ROADMAP.md)、[参考资料](references.md)或[仓库首页](https://github.com/TangHuaiZhe/ai-infra-course)。

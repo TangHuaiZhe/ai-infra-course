@@ -1,0 +1,54 @@
+site_name: AI Infra 工程师知识体系
+site_description: 以推理基础设施为主线的中文工程课程
+site_url: https://tanghuaizhe.github.io/ai-infra-course/
+repo_url: https://github.com/TangHuaiZhe/ai-infra-course
+repo_name: TangHuaiZhe/ai-infra-course
+docs_dir: docs
+site_dir: site
+theme:
+  name: mkdocs
+  locale: zh_CN
+nav:
+  - 课程首页: README.md
+  - 01 计算机基础:
+      - 模块说明: 01-computer-systems/README.md
+      - 操作系统与资源定位: 01-computer-systems/01-os-and-resources.md
+      - 并发与网络: 01-computer-systems/02-concurrency-and-network.md
+      - 性能测量: 01-computer-systems/03-performance-measurement.md
+  - 02 分布式与云原生:
+      - 模块说明: 02-distributed-cloud-native/README.md
+      - 容器与部署: 02-distributed-cloud-native/01-containers-and-deployment.md
+      - 分布式服务治理: 02-distributed-cloud-native/02-distributed-services.md
+      - 可观测性: 02-distributed-cloud-native/03-observability.md
+  - 03 GPU 与高速互联:
+      - 模块说明: 03-gpu-interconnect/README.md
+      - GPU 架构与存储: 03-gpu-interconnect/01-gpu-architecture.md
+      - 计算与带宽分析: 03-gpu-interconnect/02-compute-and-bandwidth.md
+      - 多卡通信: 03-gpu-interconnect/03-multi-gpu-communication.md
+  - 04 深度学习计算:
+      - 模块说明: 04-deep-learning-compute/README.md
+      - 张量计算与自动微分: 04-deep-learning-compute/01-tensors-and-autograd.md
+      - Transformer 与注意力: 04-deep-learning-compute/02-transformer-and-attention.md
+      - 精度与 KV 缓存: 04-deep-learning-compute/03-precision-and-kv-cache.md
+  - 05 大规模 GPU 调度:
+      - 模块说明: 05-gpu-scheduling/README.md
+      - GPU 资源暴露与隔离: 05-gpu-scheduling/01-gpu-resources.md
+      - 队列、配额与拓扑: 05-gpu-scheduling/02-queues-and-topology.md
+      - 弹性与故障: 05-gpu-scheduling/03-elasticity-and-failures.md
+  - 06 训练基础设施:
+      - 模块说明: 06-training-infra/README.md
+      - 并行策略: 06-training-infra/01-parallelism.md
+      - 检查点与恢复: 06-training-infra/02-checkpointing.md
+      - 训练性能分析: 06-training-infra/03-training-performance.md
+  - 07 推理基础设施:
+      - 模块说明: 07-inference-infra/README.md
+      - 请求生命周期: 07-inference-infra/01-request-lifecycle.md
+      - 批处理与 KV 缓存: 07-inference-infra/02-batching-and-cache.md
+      - 基准测试与服务目标: 07-inference-infra/03-benchmark-and-slo.md
+      - 分布式推理服务: 07-inference-infra/04-distributed-serving.md
+  - 08 AI 平台与成本:
+      - 模块说明: 08-ai-platform-finops/README.md
+      - 多租户平台: 08-ai-platform-finops/01-multitenant-platform.md
+      - 容量与成本模型: 08-ai-platform-finops/02-capacity-and-cost.md
+      - 可靠性与治理: 08-ai-platform-finops/03-reliability-and-governance.md
+  - 开源参考资料: references.md
